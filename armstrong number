@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int d,c=0,i,n,org,s=0,fin;
+    for(i=1;i<=100;i++)
+    {
+        n=i;org=i;fin=i; s=0;c=0;
+        while(n>0)
+        {
+            d=n%10;
+            c++;
+            n=n/10;
+        }
+        while(org>0)
+        {
+            d=org%10;
+            s=s+ pow(d,c);
+            org=org/10;
+        }
+        if(fin==s)
+        printf("ARMSTRONG NO ARE %d ",i);
+    }
+}
