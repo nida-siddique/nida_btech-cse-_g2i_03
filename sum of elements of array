@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int n[5];int i,s=0;
+    printf("enter elements");
+    for(i=0;i<5;i++)
+    {
+ scanf("%d",&n[i]);
+ 
+        
+}
+for(i=0;i<5;i++)
+{
+    s=s+n[i];
+}
+        printf("\n sum of array elements=%d",s);
+        return 0;
+}
+
+        
+
+
+
