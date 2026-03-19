@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int n,i,pow=1,y;
+    printf("enter number and power");
+    scanf("%d %d",&n,&y);
+    for(i=1;i<=y;i++)
+    {
+        pow*=n;
+    }
+    printf("power=%d",pow);
+    return 0;
+    
+}
